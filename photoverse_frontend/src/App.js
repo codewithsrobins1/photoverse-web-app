@@ -8,10 +8,10 @@ const App = () => {
   const navigate = useNavigate();
   
   useEffect(() => {
-    const user = fetchUser();
+    const User = localStorage.getItem('user') !== 'undefined' ? JSON.parse(localStorage.getItem('user')) : localStorage.clear();
 
-    if(!user) navigate('/login');
-  }, [])
+    if (!User) navigate('/login');
+  }, []);
 
   return (
     <Routes>

@@ -1,6 +1,6 @@
 # Photoverse
 
-A blog website that is built using React, Sanity.io, Google Authentification, and Tailwind CSS. 
+A social media web applicaiton that is built using React, Sanity.io, Google Authentification, and Tailwind CSS. Users can create posts to share with their friends and also save posts that they like.
 
 ## Link to Live Site
 
